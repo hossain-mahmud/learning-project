@@ -1,0 +1,62 @@
+/* ---------- font part start here -------------- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* ---------- font part end here -------------- */
+/* ---------- Global part start here -------------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.container{
+    width: 1215px;
+    margin: 0 auto;
+}
+:root{
+    --inter: "Inter", sans-serif;
+}
+/* ---------- hero section start here -------------- */
+.hero_container{
+    background: #F5F7FA;
+}
+.hero_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    min-height: 600px;
+}
+.hero_title h1{
+    font-size: 64px;
+    line-height: 75px;
+    font-family: var(--inter);
+    color: 4D4D4D;
+}
+
+
+
+
+/* ---------- hero section start here -------------- */
+
+
+
+
+
+
+/* ---------- Global part start here -------------- */
+
+
+
+
+
+
+/* ---------- Global part start here -------------- */
