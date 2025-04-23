@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio, Video, Form, html5</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 20px;
+        }
+        nav > ul > li{
+            display: inline;
+            margin-right: 10px;
+        }
+        nav > ul > li > a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">My Blogs</a></li>
+                <li><a href="#">Resume</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <audio controls src="asset/goat-sound-177346.mp3"></audio>
+            <video controls width="200px" src="asset/bd.mp4"></video>
+        </section>
+
+        <section>
+            <h2>Form</h2>
+
+            <form>
+                <label for="name"> Enter You Name:
+                    <input  placeholder="eg. Jhon Doh" type="text" name="" id="name">
+                </label>
+                <label for="email">
+                    Enter You Email:
+                    <input placeholder="eg. email@gmail.com" type="email" name="" id="email">
+                </label>
+                <fieldset>
+                    <legend>Fill your Dep.</legend>
+                    <label for="cse">
+                        <input type="radio" name="dep" id="cse"> CSE
+                    </label>
+                    <label for="eee">
+                        <input type="radio" name="dep" id="eee"> EEE
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Your Favourite Courses</legend>
+                    <label for="java">
+                        <input type="checkbox" name="" id="java"> Java
+                    </label>
+                    <label for="c++">
+                        <input type="checkbox" name="" id="c++"> C++
+                    </label>
+                </fieldset>
+                <input type="reset" value="Reset The Form">
+                <input type="submit" value="Submit The Form">
+            </form>
+        </section>
+    </main>
+
+    <footer></footer>
+    
+</body>
+</html>
