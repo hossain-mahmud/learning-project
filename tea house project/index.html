@@ -12,29 +12,27 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
   <!-- ------ tailwind cdn -------- -->
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          fontFamily: {
-            'manrope': ["Manrope", "sans-serif"],
-          }
-        }
-      }
+  <style>
+    .manrope {
+      font-family: "Manrope", sans-serif;
     }
-  </script>
+  </style>
   <title>Tea House</title>
 </head>
 
-<body class="font-manrope">
+<body class="manrope">
   <main class="max-w-screen-xl mx-auto">
-    <header class="py-12 px-3">
+    <header class="py-12 px-3 md:px-0 md:flex justify-between items-center flex-wrap gap-x-5">
       <!-- ------ texts part ------ -->
       <div>
-        <h1 class="text-4xl text-[#1C1C1C] font-bold leading-11">It's good <span class="md:block">tea time at The</span>
+        <h1 class="text-4xl md:text-6xl text-[#1C1C1C] font-bold leading-11 md:leading-17">It's good <span
+            class="md:block text-[#FF8938] capitalize">tea time at The</span>
           Tea House</h1>
-        <p class="text-[16px] text-[#777777] mt-2">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
-        <button class="bg-gradient-to-r from-[#FF8938] to-[#FF0000] px-6 py-4 rounded-xl text-sm md:text-xl text-white font-bold mt-3">Explore More <i class="fa-solid fa-arrow-right -rotate-45"></i></button>
+        <p class="text-[16px] md:text-[18px] text-[#777777] mt-2 md:w-140">Tea and Botanical Solutions Supplier Give
+          Optimum Satisfaction To Your Taste Buds.</p>
+        <button
+          class="bg-gradient-to-r from-[#FF8938] to-[#FF0000] px-6 py-4 rounded-xl text-sm md:text-xl text-white font-bold mt-3">Explore
+          More <i class="fa-solid fa-arrow-right -rotate-45"></i></button>
       </div>
       <!-- ----- image part ----- -->
       <div class="relative">
@@ -43,16 +41,16 @@
           <img class="w-full" src="asset/images/banner.png" alt="Banner Image">
         </div>
         <!-- card -->
-        <div class="absolute bg-white shadow-sm p-5 flex items-center gap-4 rounded-xl top-60 left-7">
+        <div class="absolute bg-white shadow-sm p-5 flex items-center gap-4 rounded-xl top-60 left-7 md:top-100">
           <!-- icon -->
           <div>
             <i class="fa-solid fa-star text-3xl md:text-4xl text-[#FFC850]"></i>
           </div>
           <!-- text -->
-           <div>
+          <div>
             <h2 class="text-2xl text-[#1C1C1C] font-extrabold">5.00</h2>
             <p class="text-[16px] text-[#777] font-semibold">Trust Pilot Ratings</p>
-           </div>
+          </div>
         </div>
       </div>
     </header>
