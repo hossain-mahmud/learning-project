@@ -53,34 +53,44 @@
 // const price = 150;
 // const message = price > 200 ? console.log("You can do it") : console.log("You can't do it");
 
-/**Task 1*/
+// /**Task 1*/
 
-const burger = 600;
+// const burger = 600;
 
-if(burger>500){
-    console.log("Free Mojo");
-}
-else{
-    console.log("H2O");
-}
+// if(burger>500){
+//     console.log("Free Mojo");
+// }
+// else{
+//     console.log("H2O");
+// }
 
 
-/** Task 2 */
+// /** Task 2 */
 
-const weightKg = 62;
-const heightMe = 1.65;
-const bmiResult = weightKg / heightMe ** 2;
+// const weightKg = 62;
+// const heightMe = 1.65;
+// const bmiResult = weightKg / heightMe ** 2;
 
-if (bmiResult  < 18.5){
-    console.log("You are Underweight");
-}
-else if (bmiResult >= 18.5 && bmiResult <= 24.9){
-    console.log("You are Normal");
-}
-else if (bmiResult >=25  && bmiResult <= 29.9){
-    console.log(" You are Overweight");
-}
-else{
-    console.log(" You are obese");
-}
+// if (bmiResult  < 18.5){
+//     console.log("You are Underweight");
+// }
+// else if (bmiResult >= 18.5 && bmiResult <= 24.9){
+//     console.log("You are Normal");
+// }
+// else if (bmiResult >=25  && bmiResult <= 29.9){
+//     console.log(" You are Overweight");
+// }
+// else{
+//     console.log(" You are obese");
+// }
+
+const num1 = 99;
+const num2 = 67;
+
+let result="";
+
+num1 > num2? result = num1*2 : result = num1+num2;
+
+console.log(result);
+
 
