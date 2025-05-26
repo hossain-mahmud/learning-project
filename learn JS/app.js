@@ -15,9 +15,9 @@
 // }
 
 
-var a = 20;
-var b = 40;
-var c = 76;
+// var a = 20;
+// var b = 40;
+// var c = 76;
  
 
 // if(a<b && c<b){
@@ -30,12 +30,57 @@ var c = 76;
 //     console.log("A is the Big");
 // }
 
-var max=a;
+// var max=a;
 
-if(max<b && c<b){
-    max=b;
+// if(max<b && c<b){
+//     max=b;
+// }
+// else{
+//     max=c;
+// }
+// console.log("Max Value Is",max)
+
+// const bangla = 20;
+// const english = 15;
+// const math =53;
+
+// if(bangla >= 33 && english >= 33 || math >= 33){
+//     console.log("You are Pass");
+// }
+// else{
+//     console.log("You are fail")
+// }\
+// const price = 150;
+// const message = price > 200 ? console.log("You can do it") : console.log("You can't do it");
+
+/**Task 1*/
+
+const burger = 600;
+
+if(burger>500){
+    console.log("Free Mojo");
 }
 else{
-    max=c;
+    console.log("H2O");
 }
-console.log("Max Value Is",max)
+
+
+/** Task 2 */
+
+const weightKg = 62;
+const heightMe = 1.65;
+const bmiResult = weightKg / heightMe ** 2;
+
+if (bmiResult  < 18.5){
+    console.log("You are Underweight");
+}
+else if (bmiResult >= 18.5 && bmiResult <= 24.9){
+    console.log("You are Normal");
+}
+else if (bmiResult >=25  && bmiResult <= 29.9){
+    console.log(" You are Overweight");
+}
+else{
+    console.log(" You are obese");
+}
+
