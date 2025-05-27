@@ -84,13 +84,13 @@
 //     console.log(" You are obese");
 // }
 
-const num1 = 99;
-const num2 = 67;
+// const num1 = 99;
+// const num2 = 67;
 
-let result="";
+// let result="";
 
-num1 > num2? result = num1*2 : result = num1+num2;
+// num1 > num2? result = num1*2 : result = num1+num2;
 
-console.log(result);
+// console.log(result);
 
 
